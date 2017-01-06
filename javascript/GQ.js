@@ -12,7 +12,7 @@
  */
 var gq = {
 	
-	apiURL: 'http://api.globalquran.com/',
+	apiURL: 'https://api.globalquran.com/',
 	noData: false, // switch to true, if you want to have audio only.
 	
 	googleAnalyticsID: '',
