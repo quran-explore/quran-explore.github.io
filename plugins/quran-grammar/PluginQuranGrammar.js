@@ -15,8 +15,8 @@ var CORPUS = {
 	},
 	
 	UIgetArabicAlmanacLink:	function(root){
-		var ejlink = '&nbsp;<A HREF=http://ejtaal.net/m/aa/#q=' + CORPUS.mapBuckToEjtaal(root) + ' TARGET=_ title=Arabic_Almanac><span dir=ltr style=font-size:0.81em;>(Dict1)</span></A>';
-		//ejlink += '&nbsp;<A HREF=http://ejtaal.net/mr/#q=' + CORPUS.mapBuckToEjtaal(root) + ' TARGET=_ title=Arabic_Almanac><span dir=ltr style=font-size:0.81em;>(AB)</span></A>';
+		//var ejlink = '&nbsp;<A HREF=http://ejtaal.net/m/aa/#q=' + CORPUS.mapBuckToEjtaal(root) + ' TARGET=_ title=Arabic_Almanac><span dir=ltr style=font-size:0.81em;>(Dict1)</span></A>';
+		var ejlink = '&nbsp;<A HREF=http://ejtaal.net/aa/#q=' + CORPUS.mapBuckToEjtaal(root) + ' TARGET=_ title=Arabic_Almanac><span dir=ltr style=font-size:0.81em;>(Dict)</span></A>';
 		ejlink += '&nbsp;<A HREF=http://aa.weitnahbei.de/#q=' + CORPUS.mapBuckToEjtaal(root) + ' TARGET=_ title=Arabic_Almanac><span dir=ltr style=font-size:0.81em;>(Dict2)</span></A>';
 		return ejlink;
 	},
